@@ -43,6 +43,7 @@
 		756AF62D1A1C1B9800EAED72 /* WXManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AF62C1A1C1B9800EAED72 /* WXManager.m */; };
 		756AF6301A1C1BBA00EAED72 /* WXCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AF62F1A1C1BBA00EAED72 /* WXCondition.m */; };
 		756AF6331A1C1BE000EAED72 /* WXDailyForecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AF6321A1C1BE000EAED72 /* WXDailyForecast.m */; };
+		756AF6371A1C3EE000EAED72 /* WXClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 756AF6361A1C3EE000EAED72 /* WXClient.m */; };
 		CEFC3F6227C624C76D4501A6 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1308A721099687403C1011 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -103,6 +104,8 @@
 		756AF62F1A1C1BBA00EAED72 /* WXCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXCondition.m; path = SimpleWeather/WXCondition.m; sourceTree = "<group>"; };
 		756AF6311A1C1BE000EAED72 /* WXDailyForecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WXDailyForecast.h; path = SimpleWeather/WXDailyForecast.h; sourceTree = "<group>"; };
 		756AF6321A1C1BE000EAED72 /* WXDailyForecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WXDailyForecast.m; path = SimpleWeather/WXDailyForecast.m; sourceTree = "<group>"; };
+		756AF6351A1C3EE000EAED72 /* WXClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXClient.h; sourceTree = "<group>"; };
+		756AF6361A1C3EE000EAED72 /* WXClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXClient.m; sourceTree = "<group>"; };
 		A3607EF72AE101A314B38D93 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F3AF58948B016166A8287D19 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -241,6 +244,8 @@
 		756AF6341A1C1BF600EAED72 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				756AF6351A1C3EE000EAED72 /* WXClient.h */,
+				756AF6361A1C3EE000EAED72 /* WXClient.m */,
 				756AF62E1A1C1BBA00EAED72 /* WXCondition.h */,
 				756AF62F1A1C1BBA00EAED72 /* WXCondition.m */,
 				756AF6311A1C1BE000EAED72 /* WXDailyForecast.h */,
@@ -422,6 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756AF6371A1C3EE000EAED72 /* WXClient.m in Sources */,
 				756AF62D1A1C1B9800EAED72 /* WXManager.m in Sources */,
 				756AF6331A1C1BE000EAED72 /* WXDailyForecast.m in Sources */,
 				756AF6301A1C1BBA00EAED72 /* WXCondition.m in Sources */,
